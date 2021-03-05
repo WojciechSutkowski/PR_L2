@@ -21,3 +21,8 @@ html {
 .input {
     width: 100;
 }
+
+.img {
+	width: 100px;
+	height: auto;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Mój unikalny tytuł strony</title>
+</head>
+
+<body>
+
+    <form class="contact" id="contact">
+        <label class="fill_info" for="contact">Uzupełnij dane</label>
+
+        <div class="input">
+            <label for="imie">Imię</label>
+            <div>
+                <input type="text" placeholder="Wprowadź imię" id="imie">
+            </div>
+        </div>
+
+        <div class="input">
+            <label for="imie">Nazwisko</label>
+            <div>
+                <input type="text" placeholder="Wprowadź nazwisko" id="nazwisko">
+            </div>
+        </div>
+
+        <div>
+            <label for="imie">E-mail</label>
+            <div>
+                <input type="email" placeholder="Wprowadź e-mail" id="email">
+            </div>
+        </div>
+
+        <div id="plec">
+            <label for="plec">Płeć</label>
+            <div>
+                <input type="radio" name="plec" value="Płeć" checked>Kobieta 
+                <input type="radio" name="plec" value="Płeć" checked>Mężczyzna                
+            </div>
+        </div>
+
+        <div>
+            <label for="opis">Opis</label>
+            <div>
+                <textarea class="opis" rows="4" cols="50" id="opis"></textarea>
+            </div>
+        </div>
+            
+        <div id="wiek">
+            <label for="wiek">Wiek</label>
+            <div>
+                <select>
+                    <option value="wartość18">18</option>
+                    <option value="wartość19">19</option>
+                    <option value="wartość20">20</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="stan_cywilny">
+            <label for="stan_cywilny">Stan cywilny</label>
+            <div>
+                <select>
+                    <option value="wartość1">Panna/Kawaler</option>
+                    <option value="wartość2">Zamężna/Żonaty</option>
+                </select>
+            </div>
+        </div>
+
+        <div>
+            <button type="button">Wyślij</button>
+            <button type="button">Wyczyść</button>
+        </div>
+          
+    </form>
+
+</body>
+</html>

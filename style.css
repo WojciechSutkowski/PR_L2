@@ -1,16 +1,22 @@
 html {
+    margin:0;
+    padding:0;
+    height:100%;
+    background: wheat;
+}
+
+body{
     background: wheat;
 }
 
 .contact {
-    margin: 50px 50px 50px 50px;
+    margin: 20px 20px 20px 20px;
     border: 5px solid burlywood;
     border-radius: 10px;
     padding: 12px 20px;
     height: 525px;
     width: 475px;
     background-color: beige;
-    position: absolute;
 }
 
 .fill_info {
@@ -26,3 +32,8 @@ html {
 	width: 100px;
 	height: auto;
 }
+
+.footer {
+    text-align: center;
+    margin: auto;
+ }
